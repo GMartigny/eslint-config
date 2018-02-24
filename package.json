@@ -1,0 +1,22 @@
+{
+  "name": "@gmartigny/eslint-config",
+  "version": "1.0.0",
+  "description": "My personal config for linting.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GMartigny/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "author": "Guillaume Martigny <guillaume.martigny@gmail.com> (https://www.guillaume-martigny.fr)",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0"
+  }
+}

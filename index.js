@@ -23,7 +23,9 @@ module.exports = {
         }],
         "no-return-assign": off,
         "max-len": [error, {
-            code: 120
+            code: 120,
+            ignoreComments: true,
+            ignoreTrailingComments: true
         }],
         "no-plusplus": off,
         "brace-style": [error, "stroustrup"],

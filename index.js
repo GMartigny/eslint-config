@@ -5,36 +5,38 @@ const error = 2;
 module.exports = {
     extends: "airbnb-base",
     env: {
-        "browser": true
+        "browser": true,
     },
     rules: {
         "require-jsdoc": [error, {
             require: {
                 FunctionDeclaration: true,
                 MethodDefinition: true,
-                ClassDeclaration: true
+                ClassDeclaration: true,
             }
         }],
         "no-underscore-dangle": [error, {
-            allowAfterThis: true
+            allowAfterThis: true,
         }],
         "no-param-reassign": [error, {
-            props: false
+            props: false,
         }],
         "no-return-assign": off,
         "max-len": [error, {
             code: 120,
             ignoreComments: true,
-            ignoreTrailingComments: true
+            ignoreTrailingComments: true,
         }],
         "no-plusplus": off,
         "brace-style": [error, "stroustrup"],
         "quotes": [error, "double"],
         "valid-jsdoc": [error, {
             requireReturn: false,
-            requireReturnDescription: false
+            requireReturnDescription: false,
         }],
-        "indent": [error, 4],
-        "space-before-function-paren": [error, "always"]
-    }
+        "indent": [error, 4, {
+            MemberExpression: 0,
+        }],
+        "space-before-function-paren": [error, "always"],
+    },
 };

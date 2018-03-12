@@ -35,6 +35,7 @@ module.exports = {
         }],
         indent: [error, 4, {
             MemberExpression: 0,
+            SwitchCase: 1,
         }],
         "space-before-function-paren": [error, "always"],
     },

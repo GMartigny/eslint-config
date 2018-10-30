@@ -14,9 +14,6 @@ module.exports = {
                 ClassDeclaration: true,
             },
         }],
-        "no-underscore-dangle": [error, {
-            allowAfterThis: true,
-        }],
         "no-param-reassign": [error, {
             props: false,
         }],

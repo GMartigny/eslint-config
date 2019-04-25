@@ -11,16 +11,16 @@
     "eslint",
     "eslintconfig"
   ],
+  "author": "GMartigny <guillaume.martigny@gmail.com>",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "author": "Guillaume Martigny <guillaume.martigny@gmail.com> (https://www.guillaume-martigny.fr)",
-  "license": "MIT",
   "dependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.17.2"
   },
   "devDependencies": {
-    "eslint": "^5.13.0"
+    "eslint": "^5.16.0"
   }
 }

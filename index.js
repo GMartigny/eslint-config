@@ -2,7 +2,10 @@ const off = 0;
 const error = 2;
 
 module.exports = {
-    extends: "airbnb-base",
+    extends: [
+        "airbnb-base",
+        "plugin:import/recommended",
+    ],
     env: {
         browser: true,
     },

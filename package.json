@@ -3,14 +3,16 @@
   "version": "1.2.4",
   "description": "My personal config for linting.",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "eslintConfig": {
+    "extends": ["./index.js"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GMartigny/eslint-config.git"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
   "author": "GMartigny <guillaume.martigny@gmail.com>",
   "license": "MIT",
   "peerDependencies": {

@@ -40,10 +40,21 @@ module.exports = {
         "space-before-function-paren": [error, "always"],
         "operator-linebreak": [error, "after"],
         "object-curly-newline": [error, {
-            "ObjectExpression": { multiline: true, minProperties: 1 },
-            "ObjectPattern": { multiline: true },
-            "ImportDeclaration": { multiline: true },
-            "ExportDeclaration": { multiline: true, minProperties: 1 },
+            ObjectExpression: {
+                multiline: true,
+                minProperties: 1,
+            },
+            ObjectPattern: {
+                multiline: true,
+            },
+            ImportDeclaration: {
+                multiline: true,
+            },
+            ExportDeclaration: {
+                multiline: true,
+                minProperties: 1,
+            },
         }],
+        "linebreak-style": off,
     },
 };

@@ -1,13 +1,15 @@
 {
   "name": "@gmartigny/eslint-config",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "My personal config for linting.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js"
   },
   "eslintConfig": {
-    "extends": ["./index.js"]
+    "extends": [
+      "./index.js"
+    ]
   },
   "repository": {
     "type": "git",

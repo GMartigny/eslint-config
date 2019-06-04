@@ -55,6 +55,5 @@ module.exports = {
                 minProperties: 1,
             },
         }],
-        "linebreak-style": off,
     },
 };

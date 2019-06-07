@@ -5,6 +5,7 @@ module.exports = {
     extends: [
         "airbnb-base",
         "plugin:import/recommended",
+        "plugin:ava/recommended",
     ],
     env: {
         browser: true,

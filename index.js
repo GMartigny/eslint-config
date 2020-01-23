@@ -56,5 +56,8 @@ module.exports = {
                 minProperties: 1,
             },
         }],
+        "arrow-parens": [error, "es-needed", {
+            requireForBlockBody: true,
+        }],
     },
 };

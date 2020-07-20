@@ -21,11 +21,11 @@
         "eslint": ">= 3"
     },
     "dependencies": {
-        "eslint-config-airbnb-base": "^14.1.0",
-        "eslint-plugin-ava": "^10.3.0",
-        "eslint-plugin-import": "^2.20.2"
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-plugin-ava": "^10.4.0",
+        "eslint-plugin-import": "^2.22.0"
     },
     "devDependencies": {
-        "eslint": "^7.1.0"
+        "eslint": "^7.5.0"
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "@gmartigny/eslint-config",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "My personal config for linting.",
     "main": "index.js",
     "scripts": {

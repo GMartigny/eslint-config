@@ -11,3 +11,4 @@ If you want to make modifications, feel free to fork this repo.
 
  - eslint-config-airbnb-base
  - eslint-plugin-import
+ - eslint-plugin-vue

@@ -37,6 +37,13 @@ module.exports = {
         indent: [error, 4, {
             SwitchCase: 1,
         }],
+        "lines-between-class-members": [
+            error,
+            "always",
+            {
+                exceptAfterSingleLine: true,
+            },
+        ],
         "space-before-function-paren": [error, "always"],
         "operator-linebreak": [error, "after"],
         "object-curly-newline": [error, {

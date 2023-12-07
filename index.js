@@ -6,6 +6,9 @@ module.exports = {
         "airbnb-base",
         "plugin:import/recommended",
     ],
+    parserOptions: {
+        ecmaVersion: "latest",
+    },
     env: {
         browser: true,
     },
